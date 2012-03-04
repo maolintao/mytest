@@ -35,6 +35,8 @@ public class Main {
 //		session.getTransaction().commit();
 //		SchemaExport sce = new SchemaExport(cfg);
 //		sce.create(true, true);
+//hello
+//world
 		SchemaUpdate scu = new SchemaUpdate(cfg);
 		scu.execute(true, true); 
 		
